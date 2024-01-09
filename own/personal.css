@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.container{
+    display: flex;
+}
+
+.left{
+    transition: all 0.5s ease-in-out;
+    background-image: url("img/sunOrange.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 50%;
+    background-position: center;
+}
+
+.right{
+    background-image: url("img/moonMountain.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 50%;
+    background-position: center;
+}
+
+.left_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+
+}
+
+.right_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.btn{
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    font-size: 1rem;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+.heading{
+    font-size: 40px;
+    color:darkgoldenrod;
+    text-shadow: 0 0 4px black;
+}
+
+.left, .left_content, .right, .right_content{
+    transition: all 0.5s ease-in-out;
+}
+
+.right:hover{
+    width: 90%;
+}
+
+.left:hover{
+    width: 90%;
+}
+
+.left:hover .left_content{
+    transform: scale(1.3, 1.3)
+}
+
+.right:hover .right_content{
+    transform: scale(1.3, 1.3)
+}

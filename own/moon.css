@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height:1200vh;
+}
+
+h2{
+    margin-top: 250px;
+    outline: 2px solid white;
+    padding: 8px;
+    text-shadow: 2px 2px #000000;
+}
+span{
+    font-size: 39px;
+}
+
+.image1{
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("img/mooonArtistic.png");
+    background-attachment: fixed;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2em;  
+}
+
+.image1Info{
+    width: 100%;
+    height: 350px;
+    font-size: 2em;
+    .heading{
+        padding: 50px;
+    }
+    .content{
+        padding: 20px;
+    }
+    h4{
+    padding: 20px;
+    }
+}   
+
+.image2{
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("img/moonCreation.png");
+    background-attachment: fixed;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2em;  
+}
+
+.image2Info{
+    width: 100%;
+    height:1230px;
+    font-size: 2em;
+    .heading{
+        padding: 50px;
+    }
+    .content{
+        padding: 20px;
+    }
+    h4{
+    padding: 20px;
+    }
+}   
+
+.image3{
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("img/earthmoonview.png");
+    background-attachment: fixed;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2em;  
+}
+
+.image3Info{
+    width: 100%;
+    height:1870px;
+    font-size: 2em;
+    .heading{
+        padding: 50px;
+    }
+    .content{
+        padding: 20px;
+    }
+    h4{
+    padding: 20px;
+    }
+}   
+
+
+.image4{
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("img/moonClimate.png");
+    background-attachment: fixed;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2em;  
+}
+
+.image4Info{
+    width: 100%;
+    height:680px;
+    font-size: 2em;
+    .heading{
+        padding: 50px;
+    }
+    .content{
+        padding: 20px;
+    }
+    h4{
+    padding: 20px;
+    }
+}   
+
+.image5{
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("img/superMoon.jpg");
+    background-attachment: fixed;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2em;  
+}
+
+.image5Info{
+    width: 100%;
+    height:1000px;
+    font-size: 2em;
+    .heading{
+        padding: 50px;
+    }
+    .content{
+        padding: 20px;
+    }
+    h4{
+    padding: 20px;
+    }
+}
+
+.footer{
+    height: 90px;
+    margin-top: 60px;
+    background: cadetblue;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2em;
+}
+
+#fixedContainer {
+    position: fixed;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    transition: all 0.5s ease-in-out;
+}
+
+#container:hover #imageButton {
+    width: 80px;
+}
+
+#imageButton {
+    width: 70px;
+    transition: width 0.3s ease;
+    cursor: pointer;
+    
+}
+
+#hiddenButtonContainer {
+    display: none;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#container:hover #hiddenButtonContainer {
+    display: block; 
+    transform: scale(1.3, 1.3)
+}
+
+#hiddenButtonContainer a {
+    text-decoration: none;
+    display: inline-block;
+    background: rgba(0,0,0,.8);
+    color: #fff;
+    padding: 10px 20px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-shadow: 2px 2px #000000;
+}
+
+#hiddenButtonContainer a:hover {
+    background-color: #adc5de;
+}
+
+#hiddenButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    color: white;
+}
